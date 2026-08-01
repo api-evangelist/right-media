@@ -1,4 +1,16 @@
 aid: right-media
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/right-media.png
 name: Right Media
 description: Right Media is a company surfaced as a portfolio company of redpoint-ventures and added to
   the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -24,3 +36,13 @@ maintainers:
 common:
 - type: Website
   url: http://www.rightmedia.com/index.php
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Right Media was an ad-exchange acquired by Yahoo in 2007 and later shut down.
+    The rightmedia.com domain now resolves to a parking IP (199.191.50.166) on
+    ztomy.com nameservers and 302-redirects to a domain-for-sale page. No live
+    company, API, developer portal, docs, or OpenAPI surface exists to enrich.
